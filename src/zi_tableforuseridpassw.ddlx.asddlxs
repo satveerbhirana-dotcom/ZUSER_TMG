@@ -1,0 +1,67 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'TableForUserIdPassw', 
+    typeNamePlural: 'TableForUserIdPassws', 
+    title: {
+      type: #STANDARD, 
+      label: 'Table For User Id Password Tmg', 
+      value: 'Userid'
+    }
+  }
+}
+annotate view ZI_TableForUserIdPassw with
+{
+  @UI.identification: [ {
+    position: 1 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_TableForUserIdPassw', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Table For User Id Password Tmg', 
+    position: 1 
+  } ]
+  Userid;
+  
+   @UI.identification: [ {
+    position: 2 , 
+    label: 'User Name'
+  } ]
+  @UI.lineItem: [ {
+    position: 2 , 
+    label: 'User Name'
+  } ]
+  Username;
+   
+  @UI.identification: [ {
+    position: 3 , 
+    label: 'Password'
+  } ]
+  @UI.lineItem: [ {
+    position: 3 , 
+    label: 'Password'
+  } ]
+  Password;
+   @UI.identification: [ {
+    position: 4 , 
+    label: 'Contact'
+  } ]
+  @UI.lineItem: [ {
+    position: 4 , 
+    label: 'Contact'
+  } ]
+  Contact;
+   @UI.identification: [ {
+    position: 5 , 
+    label: 'Email'
+  } ]
+  @UI.lineItem: [ {
+    position: 5 , 
+    label: 'Email'
+  } ]
+  Email;
+}

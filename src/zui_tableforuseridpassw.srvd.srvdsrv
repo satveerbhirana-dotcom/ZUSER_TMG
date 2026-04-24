@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_TableForUserIdPassw_S'
+define service ZUI_TABLEFORUSERIDPASSW {
+  expose ZI_TABLEFORUSERIDPASSW_S as TableForUserIdPaAll;
+  expose ZI_TABLEFORUSERIDPASSW as TableForUserIdPassw;
+}
